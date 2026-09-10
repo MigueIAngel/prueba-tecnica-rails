@@ -1,0 +1,21 @@
+# Enunciado original de la prueba (no forma parte de la entrega)
+prueba_tecnica_rails.pdf
+
+# macOS
+.DS_Store
+
+# Ruby / Rails
+*.gem
+*.rbc
+/.bundle/
+/vendor/bundle/
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/storage/*
+!/storage/.keep
+.env
+.env.*
+!.env.example
+coverage/
