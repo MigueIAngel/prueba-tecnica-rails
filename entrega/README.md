@@ -17,7 +17,7 @@ Versiones con las que se desarrolló y verificó la entrega:
 | Componente | Versión |
 | --- | --- |
 | Ruby | 3.3.6 (fijada en `.ruby-version`) |
-| Rails | 7.1.x |
+| Rails | 7.2.3 |
 | PostgreSQL | 16.15 |
 | Pruebas | RSpec |
 
@@ -27,6 +27,9 @@ Versiones con las que se desarrolló y verificó la entrega:
 # Ruby 3.3.6 con rbenv
 brew install rbenv ruby-build
 rbenv install 3.3.6
+
+# Rails 7.x
+gem install rails -v '~> 7.2'
 
 # PostgreSQL 16
 brew install postgresql@16
@@ -41,6 +44,7 @@ paquetes de la distribución; no se usa ninguna característica específica de m
 
 ```bash
 ruby -v          # ruby 3.3.6
+rails -v         # Rails 7.2.3
 psql --version   # psql (PostgreSQL) 16.x
 pg_isready       # accepting connections
 ```
