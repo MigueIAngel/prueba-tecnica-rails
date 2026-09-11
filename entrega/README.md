@@ -51,7 +51,24 @@ pg_isready       # accepting connections
 
 ## Ejecución por parte
 
-> Pendiente: se completa a medida que se implementa cada parte.
+### Parte 1 — Resolución de configuración efectiva
+
+```bash
+cd parte1_configuracion
+bundle install
+bin/rails db:prepare      # crea las bases, migra y carga los datos de ejemplo
+bundle exec rspec         # 29 ejemplos
+```
+
+Detalle en [`parte1_configuracion/README.md`](parte1_configuracion/README.md).
+
+### Parte 2 — Planificador de corte de material
+
+> Pendiente.
+
+### Parte 3 — Función de reserva de inventario
+
+> Pendiente.
 
 ## Supuestos generales
 

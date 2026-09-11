@@ -1,0 +1,14 @@
+source "https://rubygems.org"
+
+# Solo lo que trae Rails. El enunciado prohíbe gemas adicionales más allá de
+# las de Rails y la del framework de pruebas.
+gem "rails", "~> 7.2.3", ">= 7.2.3.2"
+gem "pg", "~> 1.1"
+gem "puma", ">= 5.0"
+gem "tzinfo-data", platforms: %i[windows jruby]
+
+group :development, :test do
+  gem "debug", platforms: %i[mri windows], require: "debug/prelude"
+  # Framework de pruebas elegido.
+  gem "rspec-rails", "~> 7.1"
+end

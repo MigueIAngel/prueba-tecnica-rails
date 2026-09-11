@@ -1,0 +1,15 @@
+# Se asume un PostgreSQL local accesible con el usuario del sistema
+# (autenticación `trust` o `peer`). Si hiciera falta credenciales, basta con
+# exportar DATABASE_URL: Rails la superpone sobre estos valores.
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: parte1_configuracion_development
+
+test:
+  <<: *default
+  database: parte1_configuracion_test
