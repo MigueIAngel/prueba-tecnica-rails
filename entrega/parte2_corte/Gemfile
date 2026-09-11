@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+# Esta parte es Ruby puro: ni Rails ni base de datos. El enunciado prohíbe
+# gemas adicionales más allá de la del framework de pruebas, así que aquí solo
+# está RSpec.
+gem "rspec", "~> 3.13"

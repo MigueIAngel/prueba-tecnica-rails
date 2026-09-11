@@ -64,7 +64,14 @@ Detalle en [`parte1_configuracion/README.md`](parte1_configuracion/README.md).
 
 ### Parte 2 — Planificador de corte de material
 
-> Pendiente.
+```bash
+cd parte2_corte
+bundle install
+bundle exec rspec         # 32 ejemplos
+```
+
+Ruby puro: no necesita base de datos. Detalle en
+[`parte2_corte/README.md`](parte2_corte/README.md).
 
 ### Parte 3 — Función de reserva de inventario
 
