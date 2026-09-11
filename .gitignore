@@ -19,3 +19,8 @@ prueba_tecnica_rails.pdf
 .env.*
 !.env.example
 coverage/
+
+# Herramientas del editor (no forman parte de la entrega)
+.ruby-lsp/
+.vscode/
+*.code-workspace
