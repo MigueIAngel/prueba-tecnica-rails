@@ -75,7 +75,14 @@ Ruby puro: no necesita base de datos. Detalle en
 
 ### Parte 3 — Función de reserva de inventario
 
-> Pendiente.
+```bash
+cd parte3_postgres
+./run.sh                  # crea la base, carga todo y corre las pruebas
+```
+
+PL/pgSQL puro: no necesita Ruby. 14 casos con `ASSERT` más la prueba de
+concurrencia con dos sesiones `psql` simultáneas. Detalle en
+[`parte3_postgres/README.md`](parte3_postgres/README.md).
 
 ## Supuestos generales
 
